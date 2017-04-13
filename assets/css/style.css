@@ -1,0 +1,150 @@
+/* entire content area is 960px wide.  Main section content is 650px wide
+sidebar is 270px wide. */
+
+
+/* default value is content-box - means width & height properties includes only the
+content.  Border-box: width & height properties include content, padding and border, 
+but not the margin;*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #777777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	margin-top: 0px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	overflow: auto;
+	font-family: "Georgia", "Times", "Times New Roman, serif";
+}
+
+#Name {
+	background-color: #4aaaa5;
+	padding: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	float: left;
+	margin-left: 10%;
+}
+
+nav {
+	float: right;
+	margin-right: 10%;
+	padding-top: 30px;
+
+}
+
+a:link {
+	color: #dddddd;
+	border-right: 1px solid #cccccc;
+}
+
+a:visited {
+	color: #4aaaa5;
+}
+
+section {
+	background-image: url(../images/fresh_snow.png);
+	overflow: auto;
+	border-bottom: 4px solid #4aaaa5;
+
+}
+
+article {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 650px;
+	overflow: auto;
+	margin-left: 10%;
+	margin-top: 30px;
+	padding: 10px;	
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	margin-left: 20px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #cccccc;
+}
+
+h3 {
+	text-align: center;
+}
+
+img {
+	float: left;
+	margin: 20px;
+}
+
+p {
+	margin-top: 40px;
+}
+
+aside {
+	background-color: #ffffff;
+	width: 270px;
+	overflow: auto;
+	padding-right:5px;
+	float: right;
+	
+
+}
+
+.icons {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+
+form {
+	padding: 10px 3% 10px 3%;
+}
+
+
+footer {
+	clear: both;
+	background-color: #666666;
+	padding: 20px;
+	color: #9D99A6;
+	font-size: smaller;
+	text-align: center;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 0 none;
+	margin-top: 10px;
+}
+
+input[type=text] {
+	border: 1px solid #cccccc;
+	width: 85%
+}
+
+input[value="John Smith"] {
+	color: #cccccc;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+
+input[value="example@gmail.com"] {
+	color: #cccccc;
+	width: 85%;
+	margin-top: 10px;
+}
+
+#message {
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
